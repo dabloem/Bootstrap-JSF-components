@@ -85,7 +85,7 @@ public class MessagesRenderer extends HtmlBasicRenderer {
         writer.startElement("div", null);
 //        if (messages.size() > 1) styleClassPrefix = styleClassPrefix + " alert-block";
         
-        writer.writeAttribute("class", "alert alert-block "+styleClassPrefix, null);
+        writer.writeAttribute("class", "alert fade in alert-block "+styleClassPrefix, null);
         
         writer.startElement("a", null);
         writer.writeAttribute("class", "close", null);
