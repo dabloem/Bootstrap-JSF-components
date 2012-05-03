@@ -1,3 +1,6 @@
 faces-config.NavData
 
 /target/
+/.settings/*
+/.classpath
+/.project
